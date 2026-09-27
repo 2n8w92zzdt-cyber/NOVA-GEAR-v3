@@ -205,3 +205,31 @@ html{scroll-padding-top:58px}
   .journal-image{height:70vw;max-height:380px}
 }
 
+
+.platforms{padding-top:24px;padding-bottom:82px}
+.setup{padding-bottom:45px}
+.feed{padding-top:16px}
+.compat{padding-top:19px;padding-bottom:53px}
+.spotlight-top{position:relative;z-index:1;transform:translateY(128px)}
+.spotlight-copy{transform:translateY(21px)}
+.deal h2{transform:translateY(51px)}
+.deal-grid{padding-bottom:252px}
+.journal-image{height:clamp(320px,35vw,476px)}
+.newsletter{padding-top:70px;padding-bottom:70px}
+.service-strip{padding-top:40px;padding-bottom:40px}
+.site-footer{padding-bottom:42px}
+@media(max-width:760px){
+  .platforms{padding-top:39px;padding-bottom:34px}
+  .setup{padding-bottom:42px}
+  .feed{padding-top:40px}
+  .compat{padding-top:38px;padding-bottom:42px}
+  .spotlight-top{transform:none}
+  .spotlight-copy{transform:none}
+  .deal h2{transform:none}
+  .deal-grid{padding-bottom:46px}
+  .journal-image{height:70vw;max-height:380px}
+  .newsletter{padding-top:39px;padding-bottom:39px}
+  .service-strip{padding-top:22px;padding-bottom:22px}
+  .site-footer{padding-bottom:0}
+}
+
