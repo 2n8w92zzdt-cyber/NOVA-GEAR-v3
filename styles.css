@@ -233,3 +233,11 @@ html{scroll-padding-top:58px}
   .site-footer{padding-bottom:0}
 }
 
+
+.setup{padding-top:18px;padding-bottom:121px}
+.setup .product-track .product-thumb{aspect-ratio:1.19}
+@media(max-width:760px){
+  .setup{padding-top:36px;padding-bottom:42px}
+  .setup .product-track .product-thumb{aspect-ratio:1/1}
+}
+
