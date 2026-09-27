@@ -241,3 +241,11 @@ html{scroll-padding-top:58px}
   .setup .product-track .product-thumb{aspect-ratio:1/1}
 }
 
+
+.spotlight-dots{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:calc((100% - 42px)/4);overflow-x:auto;scrollbar-width:none}
+.spotlight-dots::-webkit-scrollbar{display:none}
+.spotlight{padding-bottom:204px}
+@media(max-width:760px){
+  .spotlight-dots{grid-template-columns:none;grid-auto-columns:180px;grid-auto-flow:column}
+  .spotlight{padding-bottom:42px}
+}
